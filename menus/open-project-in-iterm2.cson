@@ -1,0 +1,5 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+
+'context-menu':
+  '.platform-darwin .tree-view':
+    'Open project in iTerm2': 'open-project-in-iterm2:open'

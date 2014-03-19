@@ -1,0 +1,14 @@
+{
+  "name": "open-project-in-iterm2",
+  "main": "./lib/open-project-in-iterm2",
+  "version": "0.0.0",
+  "description": "Open current project in iTerm2",
+  "activationEvents": ["open-project-in-iterm2:open"],
+  "repository": "https://github.com/hnagato/aotm-open-project-in-iterm2",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
