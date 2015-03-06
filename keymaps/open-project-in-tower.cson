@@ -8,4 +8,4 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
 '.workspace':
-  'alt-ctrl-t': 'open-project-in-iterm2:open'
+  'alt-ctrl-r': 'open-project-in-tower:open'

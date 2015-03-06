@@ -1,10 +1,10 @@
 {
-  "name": "open-project-in-iterm2",
-  "main": "./lib/open-project-in-iterm2",
-  "version": "0.0.0",
-  "description": "Open current project in iTerm2",
-  "activationEvents": ["open-project-in-iterm2:open"],
-  "repository": "https://github.com/hnagato/atom-open-project-in-iterm2",
+  "name": "open-project-in-tower",
+  "main": "./lib/open-project-in-tower",
+  "version": "1.0.0",
+  "description": "Open current project in Tower",
+  "activationEvents": ["open-project-in-tower:open"],
+  /*"repository": "https://github.com/hnagato/atom-open-project-in-tower",*/
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

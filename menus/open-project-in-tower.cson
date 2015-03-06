@@ -2,4 +2,4 @@
 
 'context-menu':
   '.platform-darwin .tree-view':
-    'Open project in iTerm2': 'open-project-in-iterm2:open'
+    'Open project in Tower': 'open-project-in-tower:open'

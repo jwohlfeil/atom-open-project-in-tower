@@ -4,7 +4,7 @@ path = require 'path'
 module.exports =
 
   activate: ->
-    atom.workspaceView.command "open-project-in-iterm2:open", (event) =>
+    atom.workspaceView.command "open-project-in-tower:open", (event) =>
       @open()
 
   open: ->
@@ -12,5 +12,5 @@ module.exports =
 
     return unless projectPath
 
-    proc.exec "open -a iTerm.app #{projectPath}", (error) ->
+    proc.exec "open -a Tower.app #{projectPath}", (error) ->
       console.log "error: #{error}" unless error is null

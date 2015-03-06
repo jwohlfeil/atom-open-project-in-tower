@@ -1,3 +1,3 @@
-# open-project-in-iterm2 package
+# open-project-in-tower package
 
-Open current **PROJECT** in iTerm2. Not the **SELECTED** path.
+Open current **PROJECT** in Tower (Mac Git App). Not the **SELECTED** path.
