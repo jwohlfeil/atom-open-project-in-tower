@@ -1,14 +1,15 @@
 {
   "name": "open-project-in-tower",
   "main": "./lib/open-project-in-tower",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Open current project in Tower",
-  "activationEvents": ["open-project-in-tower:open"],
+  "activationEvents": [
+    "open-project-in-tower:open"
+  ],
   "repository": "https://github.com/jwohlfeil/atom-open-project-in-tower",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
