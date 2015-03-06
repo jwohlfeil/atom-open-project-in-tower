@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Open current project in Tower",
   "activationEvents": ["open-project-in-tower:open"],
-  /*"repository": "https://github.com/hnagato/atom-open-project-in-tower",*/
+  "repository": "https://github.com/jwohlfeil/atom-open-project-in-tower",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
