@@ -3,9 +3,9 @@
   "main": "./lib/open-project-in-tower",
   "version": "1.1.0",
   "description": "Open current project in Tower",
-  "activationEvents": [
-    "open-project-in-tower:open"
-  ],
+  "activationCommands": {
+    "atom-workspace": [ "open-project-in-tower:open" ]
+  },
   "repository": "https://github.com/jwohlfeil/atom-open-project-in-tower",
   "license": "MIT",
   "engines": {
