@@ -4,8 +4,9 @@ path = require 'path'
 module.exports =
 
   activate: ->
-    atom.workspaceView.command "open-project-in-tower:open", (event) =>
-      @open()
+    atom.commands.add 'atom-workspace',
+      'open-project-in-tower:open': (event) =>
+          @open()
 
   open: ->
     projectPath = atom.project.getPath()
