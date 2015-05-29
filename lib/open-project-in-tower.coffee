@@ -8,9 +8,10 @@ module.exports =
       @open()
 
   open: ->
-    projectPath = atom.project.getPath()
+    projectPaths = atom.project.getPaths()
 
-    return unless projectPath
+    return unless projectPaths
 
-    proc.exec "open -a Tower.app #{projectPath}", (error) ->
-      console.log "error: #{error}" unless error is null
+    projectPaths.forEach (projectPath) ->
+      proc.exec "open -a Tower.app #{projectPath}", (error) ->
+        console.log "error: #{error}" unless error is null
