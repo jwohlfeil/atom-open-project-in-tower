@@ -14,5 +14,5 @@ module.exports =
     return unless projectPaths
 
     projectPaths.forEach (projectPath) ->
-      proc.exec "open -a Tower.app #{projectPath}", (error) ->
+      proc.exec "open -a Tower.app \'#{projectPath}\'", (error) ->
         console.log "error: #{error}" unless error is null
