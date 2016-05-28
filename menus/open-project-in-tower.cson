@@ -1,4 +1,5 @@
-# See https://atom.io/docs/latest/creating-a-package#menus for more details
-
 'context-menu':
-  '.platform-darwin .tree-view': [{label: 'Open Project in Tower', command: 'open-project-in-tower:open'}]
+  '.tree-view .header[title],
+   [class^="status-bar"] .git-branch': [
+    label: 'Open Project in Tower', command: 'open-project-in-tower:open'
+  ]
