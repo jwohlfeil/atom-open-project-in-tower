@@ -1,5 +1,6 @@
 'context-menu':
-  '.tree-view .header[title],
+  '.tree-view .header .icon-repo,
+   .header .tree-view-git-status,
    [class^="status-bar"] .git-branch': [
     label: 'Open Project in Tower', command: 'open-project-in-tower:open'
   ]
