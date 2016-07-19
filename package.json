@@ -1,7 +1,7 @@
 {
   "name": "open-project-in-tower",
   "main": "./lib/open-project-in-tower",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "description": "Open current project in Tower",
   "activationCommands": {
     "atom-workspace": [
